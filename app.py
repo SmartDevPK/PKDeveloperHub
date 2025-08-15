@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_pymongo import PyMongo
+from models.user_model import UserModel
 
 
 app = Flask(__name__)
